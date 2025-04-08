@@ -107,7 +107,7 @@ export default function Features() {
                 />
               </motion.div>
 
-              <div className="w-[1289px] h-[544px] bg-cover bg-no-repeat rounded-[10px] absolute top-[59px] left-0 md:left-40 lg:left-0 xl:left-[60px] z-[55]">
+              <div className="w-[1289px] h-[544px] bg-cover bg-no-repeat rounded-[10px] absolute top-[59px] left-0 smm:left-5 md:left-40 lg:left-0 xl:left-[60px] z-[55]">
                 <motion.h3
                   variants={fadeInUp}
                   className="flex lg:w-1/2  text-xl mt-10 lg:mt-28 items-start font-extrabold lg:text-2xl xl:text-4xl text-[#27548A] text-center whitespace-nowrap"
@@ -169,7 +169,7 @@ export default function Features() {
 
         {/* Feature 2 */}
         <ScrollSection id="feature-2">
-          <section className="w-full max-w-[2712px] h-[360px] lg:h-[600px] xl:h-[791px] relative z-[119] mt-[0px] mr-0 mb-0 ml-[-1291px] md:ml-[-1130px] lg:ml-[-1351px] xl:ml-[-1310px]">
+          <section className="w-full max-w-[2712px] h-[360px] lg:h-[600px] xl:h-[791px] relative z-[119] mt-[0px] mr-0 mb-0 ml-[-1291px] smm:ml-[-1271px] md:ml-[-1130px] lg:ml-[-1351px] xl:ml-[-1310px]">
             <motion.div
               variants={fadeInUp}
               className="hidden lg:block w-[120px] lg:w-[181px] h-[173px] bg-cover bg-no-repeat rounded-[10px] absolute top-32 lg:top-0 left-[1450px] lg:left-[1650px] xl:left-[1712px] z-[118]"
@@ -241,7 +241,7 @@ export default function Features() {
 
         {/* Feature 3 */}
         <ScrollSection id="feature-3">
-          <section className="w-full max-w-[1348px] h-[380px] lg:h-[585px] relative z-[146] mt-[0px] mr-0 mb-0 ml-8 md:ml-44 lg:ml-0 xl:ml-[50px]">
+          <section className="w-full max-w-[1348px] h-[380px] lg:h-[585px] relative z-[146] mt-[0px] mr-0 mb-0 ml-8 smm:ml-12 md:ml-44 lg:ml-0 xl:ml-[50px]">
             <div className="w-[1289px] h-[544px] rounded-lg bg-cover bg-no-repeat absolute top-0 -left-5 sm:left-0 z-[85]">
               <motion.div
                 variants={slideInRight}
@@ -300,7 +300,7 @@ export default function Features() {
 
         {/* Feature 4 */}
         <ScrollSection id="feature-4">
-          <section className="w-full max-w-[2712px] h-[600px] xl:h-[751px] relative z-[119] mt-[81px] mr-0 mb-0 ml-[-1291px] md:ml-[-1120px] lg:ml-[-1291px]">
+          <section className="w-full max-w-[2712px] h-[600px] xl:h-[751px] relative z-[119] mt-[81px] mr-0 mb-0 ml-[-1291px] smm:ml-[-1275px] md:ml-[-1120px] lg:ml-[-1291px]">
             <motion.div
               variants={slideInLeft}
               className="hidden lg:block lg:w-[280px] xl:w-[320px] h-[194px] bg-cover bg-no-repeat absolute top-[70px] xl:top-[56px] left-[1290px] xl:left-[1308px] z-[117]">
