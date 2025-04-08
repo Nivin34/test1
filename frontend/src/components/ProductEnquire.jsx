@@ -192,9 +192,10 @@ Queries: ${formData.about || "None"}`;
         </div>
       </div>
 
-      <div className="absolute bottom-[980px] rounded-lg lg:rounded-none right-4 md:right-40 md:bottom-[950px] lg:right-5 xl:right-10 lg:bottom-[950px] xl:bottom-[800px] bg-indigo-600 p-1 lg:p-3 lg:w-[200px] lg:rounded-t-2xl lg:rounded-br-2xl shadow-lg shadow-indigo-400 hover:shadow-indigo-600">
-        <div className="px-2 flex gap-5 lg:px-0 lg:gap-0 lg:flex-col">
-          <div className="text-white my-2 text-[16px] lg:text-lg font-bold">Contact Us :</div>
+      <div className="absolute bottom-[980px] rounded-lg lg:rounded-none right-12 md:right-40 md:bottom-[950px] lg:right-5 xl:right-10 lg:bottom-[950px] xl:bottom-[800px] bg-indigo-600 p-1 lg:p-3 lg:w-[200px] lg:rounded-t-2xl lg:rounded-br-2xl shadow-lg shadow-indigo-400 hover:shadow-indigo-600">
+        
+          <div className="text-white text-center my-2 text-[14px] lg:text-lg font-bold">Contact Us :</div>
+          <div className="px-2 flex gap-5 lg:px-0 lg:gap-0 lg:flex-col">
           <div className="text-white my-2 flex text-[14px] lg:text-lg gap-2">
             <MdAddIcCall className="mt-1 lg:mt-1.5" /> 97109 46806
           </div>

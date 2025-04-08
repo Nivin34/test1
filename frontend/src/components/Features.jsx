@@ -107,10 +107,10 @@ export default function Features() {
                 />
               </motion.div>
 
-              <div className="w-[1289px] h-[544px] bg-cover bg-no-repeat rounded-[10px] absolute top-[59px] left-5 md:left-40 lg:left-0 xl:left-[60px] z-[55]">
+              <div className="w-[1289px] h-[544px] bg-cover bg-no-repeat rounded-[10px] absolute top-[59px] left-0 md:left-40 lg:left-0 xl:left-[60px] z-[55]">
                 <motion.h3
                   variants={fadeInUp}
-                  className="flex lg:w-1/2 text-xl mt-10 lg:mt-28 items-start font-extrabold lg:text-2xl xl:text-4xl text-[#27548A] text-center whitespace-nowrap"
+                  className="flex lg:w-1/2  text-xl mt-10 lg:mt-28 items-start font-extrabold lg:text-2xl xl:text-4xl text-[#27548A] text-center whitespace-nowrap"
                 >
                   " Designed to Feel Instantly Familiar "
                 </motion.h3>
@@ -169,7 +169,7 @@ export default function Features() {
 
         {/* Feature 2 */}
         <ScrollSection id="feature-2">
-          <section className="w-full max-w-[2712px] h-[360px] lg:h-[600px] xl:h-[791px] relative z-[119] mt-[0px] mr-0 mb-0 ml-[-1271px] md:ml-[-1130px] lg:ml-[-1351px] xl:ml-[-1310px]">
+          <section className="w-full max-w-[2712px] h-[360px] lg:h-[600px] xl:h-[791px] relative z-[119] mt-[0px] mr-0 mb-0 ml-[-1291px] md:ml-[-1130px] lg:ml-[-1351px] xl:ml-[-1310px]">
             <motion.div
               variants={fadeInUp}
               className="hidden lg:block w-[120px] lg:w-[181px] h-[173px] bg-cover bg-no-repeat rounded-[10px] absolute top-32 lg:top-0 left-[1450px] lg:left-[1650px] xl:left-[1712px] z-[118]"
@@ -242,7 +242,7 @@ export default function Features() {
         {/* Feature 3 */}
         <ScrollSection id="feature-3">
           <section className="w-full max-w-[1348px] h-[380px] lg:h-[585px] relative z-[146] mt-[0px] mr-0 mb-0 ml-8 md:ml-44 lg:ml-0 xl:ml-[50px]">
-            <div className="w-[1289px] h-[544px] rounded-lg bg-cover bg-no-repeat absolute top-0 left-0 z-[85]">
+            <div className="w-[1289px] h-[544px] rounded-lg bg-cover bg-no-repeat absolute top-0 -left-5 sm:left-0 z-[85]">
               <motion.div
                 variants={slideInRight}
                 className="w-1/2 mt-56 lg:mt-44  lg:ml-[530px] xl:ml-[700px]"
@@ -323,7 +323,7 @@ export default function Features() {
 
                 <motion.div
                   variants={fadeInUp}
-                  className="w-[410px] lg:w-[500px] xl:w-full mt-64 md:mt-72 lg:mt-24 text-left px-5 lg:px-0  z-[89] ml-28 xl:ml-5 "
+                  className="w-[380px] lg:w-[500px] xl:w-full mt-64 md:mt-72 lg:mt-24 text-left px-2 lg:px-0  z-[89] ml-28 xl:ml-5 "
                 >
                   <span className="  font-['Inter'] text-[16px] lg:text-[20px] text-[#939797] font-semibold leading-[40px]">
                     ACE CRM auto-fills, syncs, and links your data so you can
